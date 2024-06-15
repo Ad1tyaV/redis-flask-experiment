@@ -1,0 +1,26 @@
+GET http://127.0.0.1:5000/
+###
+
+POST http://127.0.0.1:5000/add_user
+content-type: application/json
+
+{
+    "name": "Aditya",
+    "age": 19
+}
+
+###
+
+GET http://127.0.0.1:5000/get_user/2
+
+###
+
+GET http://127.0.0.1:5000/list_users
+
+###
+
+GET http://127.0.0.1:5000/redis_entries
+
+###
+
+GET http://127.0.0.1:5000/redis_dump
